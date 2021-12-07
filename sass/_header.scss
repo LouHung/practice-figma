@@ -1,0 +1,50 @@
+
+
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 45.60px;
+
+    .logo-container{
+        @extend %flex-between;
+        gap: 10px;
+        color: #0B132A;
+
+
+        .logo-brand{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 23.7px
+        }
+        .logo-brand-2{
+            font-weight: 700
+        }
+        .logo{
+            height: 36px;
+        }
+    }
+
+    .bar-container{
+        @extend %flex-between;
+
+        gap: 40px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #4F5665;
+
+    }
+    .btn-container{
+        @extend %flex-between;
+        gap: 30px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #0B132A
+    }
+    .btn-signUp{
+        color: $primary-color;
+        padding: 13px 45px;
+        border: 1px solid $primary-color;
+        border-radius:50px
+    }
+}
+
